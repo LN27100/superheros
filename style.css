@@ -1,7 +1,7 @@
 #infos {
     display: flex;
     justify-content: center;
-    flex-direction: column;    
+    flex-wrap: wrap;
 }
 
 #infos>.card>img {
@@ -83,6 +83,6 @@
     height: auto;
     border: 1px solid #ccc;
     padding: 1rem;
-    margin: 3rem;
+    margin: 2rem;
     background: linear-gradient(0deg, rgba(105,38,228,1) 0%, rgba(231,253,45,1) 61%);
 }
