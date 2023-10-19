@@ -1,22 +1,88 @@
 #infos {
     display: flex;
-        justify-content: center;
-    width: 100%;
-    height: 100%;
-    padding-left: 5rem;
+    justify-content: center;
+    flex-direction: column;    
 }
 
 #infos>.card>img {
     width: 100%;
     height: auto;
-    border : 2px solid yellow;
 }
 
+#infos > div:nth-child(1) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+#infos > div:nth-child(2) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+#infos > div:nth-child(3) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+#infos > div:nth-child(4) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+#infos > div:nth-child(5) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+#infos > div:nth-child(6) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+#infos > div:nth-child(7) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+#infos > div:nth-child(8) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+#infos > div:nth-child(9) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+#infos > div:nth-child(9) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+#infos > div:nth-child(10) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+#infos > div:nth-child(11) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+#infos > div:nth-child(12) > img.logo {
+    width: 50%;
+    height: auto;
+}
+
+
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    height: auto;
     border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    width: 300px;
-    display: inline-block;
+    padding: 1rem;
+    margin: 3rem;
     background: linear-gradient(0deg, rgba(105,38,228,1) 0%, rgba(231,253,45,1) 61%);
 }

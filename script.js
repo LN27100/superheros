@@ -10,17 +10,17 @@
         }
     }
     
-    let wonderWoman = new heros('logoDC.png','Wonderwoman', 'wonderwoman.jpg','Themyscira','Surhumaine','Diane de Themyscira','La ligue des Justiciers')
-    let looseCannon = new heros('logoDC.png','Loose Cannon', 'looseCanon.jpg', 'Metropolis','Méga force','Eddie Walker','Inconnue')
+    let wonderWoman = new heros('logoDC.jpg','Wonderwoman', 'wonderwoman.jpg','Themyscira','Surhumaine','Diane de Themyscira','La ligue des Justiciers')
+    let looseCannon = new heros('logoDC.jpg','Loose Cannon', 'looseCanon.png', 'Metropolis','Méga force','Eddie Walker','Inconnue')
     let blackWidow = new heros('logoMarvel.png','Black Widow', 'blackwidow.jpg','Washington', 'Maitrise des arts martiaux','Natasha Romanoff','S.H.I.E.L.D')
     let deadPool = new heros('logoMarvel.png','Deadpool', 'deadpool.jpg', 'San Francisco', 'Super-guérison et Immortalité', 'Wade Wilson', 'Mercenaire')
     let wolverine = new heros('logoMarvel.png','Wolverine', 'wolverine.jpg','New York', 'Super tranchant et SUper-guérison', 'James Howlett(Logan)', 'X-Men')
     let captainMarvel = new heros('logoMarvel.png','Captain Marvel', 'captainmarvel.jpg','New York', 'Surhumaine et projection énergie absorbée', 'Carol Danvers', 'Les Vengeurs et Les gardiens de la galaxie')
-    let greenArrow = new heros('logoDC.png','Green Arrow', 'greenArrow.jpg', 'Star City', 'Super précis', 'Oliver Queen', 'Team Arrow')
+    let greenArrow = new heros('logoDC.jpg','Green Arrow', 'greenArrow.jpeg', 'Star City', 'Super précis', 'Oliver Queen', 'Team Arrow')
     let jeanGrey = new heros('logoMarvel.png','Jean Grey','phoenix.jpg', 'Salem Center', 'Pyrokinésie et Télépathie', 'Jean Elaine Grey-Summers', 'X-Men')
     let flash = new heros('logoDC.jpg','Flash', 'flash.jpg', 'Central City', 'Ultra vitesse', 'Barry Allen', 'La ligue de Justiciers')
-    let cyborg = new heros('logoDC','Cyborg', 'cyborg.jpg', 'New York', 'Super robotisé', 'Victor Stone', 'La ligue des Justiciers')
-    let donnaTroy = new heros('logoDC.png','Wonder girl', 'donnaTroy.jpg', 'Brésil', 'Super force ', 'Donna Troy', 'Teen Titans')
+    let cyborg = new heros('logoDC.jpg','Cyborg', 'cyborg.jpg', 'New York', 'Super robotisé', 'Victor Stone', 'La ligue des Justiciers')
+    let donnaTroy = new heros('logoDC.jpg','Wonder girl', 'donnaTroy.jpg', 'Brésil', 'Super force ', 'Donna Troy', 'Teen Titans')
     let missHulk = new heros('logoMarvel.png','Miss Hulk', 'missHulk.jpg', 'Los Angeles', 'Surhumaine', 'Jennifer Sue Walters', 'Goodman, Lieber, Kurtzberg & Holliway')
 
     
@@ -32,7 +32,7 @@
         const card = document.createElement("div");
         card.className = "card";
         card.innerHTML += `
-        <img src="${heros1[i].image}" alt="image">
+        <img class="logo" src="${heros1[i].image}" alt="image">
         <p><b>Nom:</b> ${heros1[i].nom}</p>
         <img src="${heros1[i].photo}" alt="photo">
         <p><b>Lieu: </b> ${heros1[i].lieu}</p>
