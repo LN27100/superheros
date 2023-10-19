@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(90deg, rgba(59,26,104,1) 20%, rgba(29,52,253,0.8827906162464986) 50%, rgba(59,26,104,1) 79%);
+}
+
 #infos {
     display: flex;
     justify-content: center;
