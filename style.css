@@ -1,5 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+/* font-family: 'Metal Mania'; */
+@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+/* font-family: 'Tillana', cursive; */
+
+
+
 body {
-    background: linear-gradient(90deg, rgba(59,26,104,1) 20%, rgba(29,52,253,0.8827906162464986) 50%, rgba(59,26,104,1) 79%);
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(56, 26, 98, 1) 3%, rgba(98, 26, 41, 1) 36%, rgba(92, 26, 49, 1) 64%, rgba(56, 26, 98, 1) 100%);
+}
+
+header {
+    margin: 0;
+    padding:0;
+    background-color: black;
+    height: 10rem;
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem;
+    font-family: 'Metal Mania';
+    color: white;
+    text-align: center;
+    font-size: 4rem;
 }
 
 #infos {
@@ -13,69 +38,75 @@ body {
     height: auto;
 }
 
-#infos > div:nth-child(1) > img.logo {
+#infos>div:nth-child(1)>img.logo {
     width: 50%;
     height: auto;
 }
 
-#infos > div:nth-child(2) > img.logo {
+#infos>div:nth-child(2)>img.logo {
     width: 50%;
     height: auto;
 }
 
-#infos > div:nth-child(3) > img.logo {
+#infos>div:nth-child(3)>img.logo {
+    width: 50%;
+    height: auto;
+    margin: 2.2rem;
+}
+
+#infos>div:nth-child(4)>img.logo {
+    width: 50%;
+    height: auto;
+    margin: 2.2rem;
+
+}
+
+#infos>div:nth-child(5)>img.logo {
+    width: 50%;
+    height: auto;
+    margin: 2.2rem;
+
+}
+
+#infos>div:nth-child(6)>img.logo {
+    width: 50%;
+    height: auto;
+    margin: 2.2rem;
+
+}
+
+#infos>div:nth-child(7)>img.logo {
     width: 50%;
     height: auto;
 }
 
-#infos > div:nth-child(4) > img.logo {
+#infos>div:nth-child(8)>img.logo {
+    width: 50%;
+    height: auto;
+    margin: 2.2rem;
+
+}
+
+#infos>div:nth-child(9)>img.logo {
     width: 50%;
     height: auto;
 }
 
-#infos > div:nth-child(5) > img.logo {
+#infos>div:nth-child(10)>img.logo {
     width: 50%;
     height: auto;
 }
 
-#infos > div:nth-child(6) > img.logo {
+#infos>div:nth-child(11)>img.logo {
     width: 50%;
     height: auto;
 }
 
-#infos > div:nth-child(7) > img.logo {
+#infos>div:nth-child(12)>img.logo {
     width: 50%;
     height: auto;
-}
+    margin: 2.2rem;
 
-#infos > div:nth-child(8) > img.logo {
-    width: 50%;
-    height: auto;
-}
-
-#infos > div:nth-child(9) > img.logo {
-    width: 50%;
-    height: auto;
-}
-
-#infos > div:nth-child(9) > img.logo {
-    width: 50%;
-    height: auto;
-}
-
-#infos > div:nth-child(10) > img.logo {
-    width: 50%;
-    height: auto;
-}
-
-#infos > div:nth-child(11) > img.logo {
-    width: 50%;
-    height: auto;
-}
-
-#infos > div:nth-child(12) > img.logo {
-    width: 50%;
-    height: auto;
 }
 
 
@@ -83,10 +114,83 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20rem;
+    width: 15rem;
     height: auto;
     border: 1px solid #ccc;
     padding: 1rem;
     margin: 2rem;
-    background: linear-gradient(0deg, rgba(105,38,228,1) 0%, rgba(231,253,45,1) 61%);
+    background: linear-gradient(0deg, rgba(80, 45, 128, 0.9051995798319328) 0%, rgba(127, 44, 61, 0.8295693277310925) 67%);
 }
+
+#infos>div:nth-child(1)>p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+#infos > div:nth-child(2) > p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+#infos > div:nth-child(3) > p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+#infos > div:nth-child(4) > p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+#infos > div:nth-child(5) > p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+#infos > div:nth-child(6) > p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+#infos > div:nth-child(7) > p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+#infos > div:nth-child(8) > p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+#infos > div:nth-child(9) > p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+#infos > div:nth-child(10) > p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+#infos > div:nth-child(11) > p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+#infos > div:nth-child(12) > p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+}
+

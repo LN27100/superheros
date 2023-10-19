@@ -33,7 +33,7 @@
         card.className = "card";
         card.innerHTML += `
         <img class="logo" src="${heros1[i].image}" alt="image">
-        <p><b>Nom:</b> ${heros1[i].nom}</p>
+        <p>${heros1[i].nom}</p>
         <img src="${heros1[i].photo}" alt="photo">
         <p><b>Lieu: </b> ${heros1[i].lieu}</p>
         <p><b>Super pouvoir: </b> ${heros1[i].superPouvoir}</p>
