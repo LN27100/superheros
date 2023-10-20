@@ -14,7 +14,7 @@
     let looseCannon = new heros('logoDC.jpg','Loose Cannon', 'looseCanon.png', 'Metropolis','Méga force','Eddie Walker','Inconnue')
     let blackWidow = new heros('logoMarvel.png','Black Widow', 'blackwidow.jpg','Washington', 'Maitrise des arts martiaux','Natasha Romanoff','S.H.I.E.L.D')
     let deadPool = new heros('logoMarvel.png','Deadpool', 'deadpool.jpg', 'San Francisco', 'Super-guérison et Immortalité', 'Wade Wilson', 'Mercenaire')
-    let wolverine = new heros('logoMarvel.png','Wolverine', 'wolverine.jpg','New York', 'Super tranchant et SUper-guérison', 'James Howlett(Logan)', 'X-Men')
+    let wolverine = new heros('logoMarvel.png','Wolverine', 'wolverine.jpg','New York', 'Super tranchant et Super-guérison', 'James Howlett(Logan)', 'X-Men')
     let captainMarvel = new heros('logoMarvel.png','Captain Marvel', 'captainmarvel.jpg','New York', 'Surhumaine et projection énergie absorbée', 'Carol Danvers', 'Les Vengeurs et Les gardiens de la galaxie')
     let greenArrow = new heros('logoDC.jpg','Green Arrow', 'greenArrow.jpeg', 'Star City', 'Super précis', 'Oliver Queen', 'Team Arrow')
     let jeanGrey = new heros('logoMarvel.png','Jean Grey','phoenix.jpg', 'Salem Center', 'Pyrokinésie et Télépathie', 'Jean Elaine Grey-Summers', 'X-Men')
