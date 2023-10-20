@@ -30,6 +30,30 @@ h1 {
     font-size: 4rem;
 }
 
+.comics {
+    height: 7rem;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2rem; /* Changer la taille de la police pour les petits écrans */
+    }
+
+    .comics {
+        height: auto;
+        width: 50%; /* Ajuster la largeur de l'image pour les petits écrans */
+    }
+}
+
+
+
 #infos {
     display: flex;
     justify-content: center;
