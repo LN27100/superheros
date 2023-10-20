@@ -172,9 +172,6 @@ h1 {
     background: linear-gradient(0deg, rgba(80, 45, 128, 0.9051995798319328) 0%, rgba(127, 44, 61, 0.8295693277310925) 67%);
 }
 
-.card audio {
-    display: none;
-}
 
 .card:hover {
     background-color: #BFADEE;
@@ -328,3 +325,4 @@ p {
 #infos > div:nth-child(12) > img:nth-child(3) {
     border-radius: 10px;
 }
+
