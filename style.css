@@ -15,7 +15,7 @@ header {
     margin: 0;
     padding:0;
     background-color: black;
-    height: 10rem;
+    height: 8rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,94 +39,95 @@ h1 {
 #infos>.card>img {
     width: 100%;
     height: auto;
+    margin-bottom: 0.5rem;
 }
 
 #infos>div:nth-child(1)>img.logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
 }
 
 #infos>div:nth-child(2)>img.logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
 
 }
 
 #infos>div:nth-child(3)>img.logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 2.1rem;
     margin-bottom: 1.4rem;
 }
 
 #infos>div:nth-child(4)>img.logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 2.1rem;
     margin-bottom: 1.4rem;
 }
 
 #infos>div:nth-child(5)>img.logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 2.1rem;
     margin-bottom: 1.4rem;
 }
 
 #infos>div:nth-child(6)>img.logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 2.1rem;
     margin-bottom: 1.4rem;
 }
 
 #infos>div:nth-child(7)>img.logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
 
 }
 
 #infos>div:nth-child(8)>img.logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 2.1rem;
     margin-bottom: 1.4rem;
 }
 
 #infos>div:nth-child(9)>img.logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
 
 }
 
 #infos>div:nth-child(10)>img.logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
 
 }
 
 #infos>div:nth-child(11)>img.logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
 
 }
 
 #infos>div:nth-child(12)>img.logo {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 2.1rem;
     margin-bottom: 1.4rem;
 }
 
@@ -237,5 +238,7 @@ h1 {
 }
 
 p {
-    font-family: 'Tillana', cursive;  
+    font-family: 'Tillana', cursive;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;  
 }
