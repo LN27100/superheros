@@ -42,3 +42,24 @@ for (let i = 0; i < heros1.length; i++) {
     infos.appendChild(card);
 }
 
+
+
+
+//  ESSAI SON AU SURVOL DES CARDS
+// Dans le card.innerHTML ?
+// <audio controls>
+//         <source src="audio/superhero-action-trailer-144951.mp3" type="audio">
+//     </audio>
+
+ 
+// Fonction ?
+// const card = document.querySelector('card');
+// const audio = card.querySelector('audio');
+
+// card.addEventListener('mouseover', () => {
+//     audio.play();
+// });
+
+//  card.addEventListener('mouseout', () => {
+//   audio.pause();
+// audio.currentTime = 0;
