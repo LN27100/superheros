@@ -172,7 +172,7 @@ h1 {
 }
 
 .card:hover {
-    background-color: blueviolet;
+    background-color: #7146E3;
 }
 
 #infos>div:nth-child(1)>p:nth-child(2) {
@@ -242,6 +242,8 @@ h1 {
     font-family: 'Tillana', cursive;
     color: white;
     font-size: 2rem;
+    text-align: center;
+
 }
 
 #infos>div:nth-child(10)>p:nth-child(2) {

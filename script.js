@@ -11,7 +11,7 @@ class heros {
 }
 
 let wonderWoman = new heros('logoDC.jpg', 'Wonderwoman', 'wonderwoman.jpg', 'Themyscira', 'Surhumaine', 'Diane de Themyscira', 'La ligue des Justiciers')
-let looseCannon = new heros('logoDC.jpg', 'Loose Cannon', 'looseCanon.png', 'Metropolis', 'Méga force', 'Eddie Walker', 'Inconnue')
+let looseCannon = new heros('logoDC.jpg', 'Loose Cannon', 'looseCannon.jpg', 'Metropolis', 'Méga force', 'Eddie Walker', 'Inconnue')
 let blackWidow = new heros('logoMarvel.png', 'Black Widow', 'blackwidow.jpg', 'Washington', 'Maitrise des arts martiaux', 'Natasha Romanoff', 'S.H.I.E.L.D')
 let deadPool = new heros('logoMarvel.png', 'Deadpool', 'deadpool.jpg', 'San Francisco', 'Super-guérison et Immortalité', 'Wade Wilson', 'Mercenaire')
 let wolverine = new heros('logoMarvel.png', 'Wolverine', 'wolverine.jpg', 'New York', 'Super tranchant et Super-guérison', 'James Howlett(Logan)', 'X-Men')
