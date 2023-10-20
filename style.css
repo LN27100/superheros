@@ -13,9 +13,9 @@ body {
 
 header {
     margin: 0;
-    padding:0;
+    padding: 0;
     background-color: black;
-    height: 8rem;
+    height: 9rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,6 +33,7 @@ h1 {
 .comics {
     height: 7rem;
     width: auto;
+    margin-right: 50px;
 }
 
 @media (max-width: 768px) {
@@ -43,15 +44,15 @@ h1 {
     }
 
     h1 {
-        font-size: 2rem; /* Changer la taille de la police pour les petits écrans */
+        font-size: 2rem;
     }
 
     .comics {
         height: auto;
-        width: 50%; /* Ajuster la largeur de l'image pour les petits écrans */
+        width: 50%;
+        margin: 0 auto;
     }
 }
-
 
 
 #infos {
@@ -162,9 +163,9 @@ h1 {
     width: 15rem;
     height: auto;
     border: 5px ridge #A48F94;
-
     padding: 1rem;
     margin: 2rem;
+    padding-bottom: 0.3rem;
     background: linear-gradient(0deg, rgba(80, 45, 128, 0.9051995798319328) 0%, rgba(127, 44, 61, 0.8295693277310925) 67%);
 }
 
@@ -179,7 +180,7 @@ h1 {
     text-align: center;
 }
 
-#infos > div:nth-child(2) > p:nth-child(2) {
+#infos>div:nth-child(2)>p:nth-child(2) {
     font-family: 'Tillana', cursive;
     color: white;
     font-size: 2rem;
@@ -187,7 +188,7 @@ h1 {
 
 }
 
-#infos > div:nth-child(3) > p:nth-child(2) {
+#infos>div:nth-child(3)>p:nth-child(2) {
     font-family: 'Tillana', cursive;
     color: white;
     font-size: 2rem;
@@ -195,7 +196,7 @@ h1 {
 
 }
 
-#infos > div:nth-child(4) > p:nth-child(2) {
+#infos>div:nth-child(4)>p:nth-child(2) {
     font-family: 'Tillana', cursive;
     color: white;
     font-size: 2rem;
@@ -203,7 +204,7 @@ h1 {
 
 }
 
-#infos > div:nth-child(5) > p:nth-child(2) {
+#infos>div:nth-child(5)>p:nth-child(2) {
     font-family: 'Tillana', cursive;
     color: white;
     font-size: 2rem;
@@ -211,7 +212,7 @@ h1 {
 
 }
 
-#infos > div:nth-child(6) > p:nth-child(2) {
+#infos>div:nth-child(6)>p:nth-child(2) {
     font-family: 'Tillana', cursive;
     color: white;
     font-size: 2rem;
@@ -219,7 +220,7 @@ h1 {
 
 }
 
-#infos > div:nth-child(7) > p:nth-child(2) {
+#infos>div:nth-child(7)>p:nth-child(2) {
     font-family: 'Tillana', cursive;
     color: white;
     font-size: 2rem;
@@ -227,7 +228,7 @@ h1 {
 
 }
 
-#infos > div:nth-child(8) > p:nth-child(2) {
+#infos>div:nth-child(8)>p:nth-child(2) {
     font-family: 'Tillana', cursive;
     color: white;
     font-size: 2rem;
@@ -235,21 +236,13 @@ h1 {
 
 }
 
-#infos > div:nth-child(9) > p:nth-child(2) {
+#infos>div:nth-child(9)>p:nth-child(2) {
     font-family: 'Tillana', cursive;
     color: white;
     font-size: 2rem;
 }
 
-#infos > div:nth-child(10) > p:nth-child(2) {
-    font-family: 'Tillana', cursive;
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-
-}
-
-#infos > div:nth-child(11) > p:nth-child(2) {
+#infos>div:nth-child(10)>p:nth-child(2) {
     font-family: 'Tillana', cursive;
     color: white;
     font-size: 2rem;
@@ -257,7 +250,15 @@ h1 {
 
 }
 
-#infos > div:nth-child(12) > p:nth-child(2) {
+#infos>div:nth-child(11)>p:nth-child(2) {
+    font-family: 'Tillana', cursive;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+#infos>div:nth-child(12)>p:nth-child(2) {
     font-family: 'Tillana', cursive;
     color: white;
     font-size: 2rem;
@@ -268,5 +269,5 @@ h1 {
 p {
     font-family: 'Tillana', cursive;
     margin-bottom: 0.1rem;
-    margin-top: 0.1rem;  
+    margin-top: 0.1rem;
 }
